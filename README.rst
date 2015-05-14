@@ -11,8 +11,8 @@ pptshape adds new directive as follow.
       :pptfilename: testppt.pptx
       :shapename: shape-title
 
-First line of the directive specifies filename of image file to be generated. `:pptfilename:` specifies 
-name of PowerPoint presentaion. `:shapename:` specifies name of shape you specified(see Usage).
+First line of the directive specifies filename of image file to be generated. ``:pptfilename:`` specifies 
+name of PowerPoint presentaion. ``:shapename:`` specifies name of shape you specified(see Usage).
 
 When you build sphinx project on Windows box with PowerPoint installed, pptshape opens ppt file 
 and create png file if ppt file is newer than image files.
@@ -21,7 +21,7 @@ If the project is build on PC PowerPoint is not installed or non-Windows box, pp
 behave just like as standard image directive.
 
 The ppt-shape directive is derived from standard image directive, so you can use directives such as 
-`:height:` or `:alt:` image directive has.
+``:height:`` or ``:alt:`` image directive has.
 
 
 Usage
@@ -31,7 +31,7 @@ Usage
 
 2. Create new presentation(.ppt) and draw shape.
 
-3. Select the shape you wrote and display format tab. Specify shape of name the shape at 'title' field.
+3. Select the shape you wrote and display format tab. Specify name of the shape at 'title' field.
 
 4. Save presentation file.
 
